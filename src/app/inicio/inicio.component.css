@@ -1,12 +1,60 @@
 main {
-    min-height: 500px;
+  min-height: 500px;
 }
 
 #section-banner {
-    min-height: 400px;
+  min-height: 400px;
 }
 
 #section-banner img {
-    height: 400px;
-    object-fit: cover;
+  height: 500px;
+  object-fit: cover;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-size: auto;
+  object-fit: cover;
+}
+
+#promo {
+  margin: 5px 15vw;
+}
+
+mat-grid-list {
+  margin: 10px 0px;
+}
+
+mat-grid-tile {
+  border-radius: 10px;
+}
+
+mat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+mat-card-actions p {
+  color: red;
+  font-size: 30px;
+}
+
+mat-card img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }

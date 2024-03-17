@@ -1,36 +1,98 @@
 <main>
-    <section id="section-banner">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/imgs/hades.jpg" class="d-block w-100" alt="hades" />
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/imgs/unch4.webp" class="d-block w-100" alt="Uncharted 4" />
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/imgs/ykz0.jpeg" class="d-block w-100" alt="Yakuza 0" />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-            >
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          
-    </section>
+  <section id="section-banner">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/imgs/hades.jpg"
+            class="d-block w-100"
+            alt="hades"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/imgs/unch4.webp"
+            class="d-block w-100"
+            alt="Uncharted 4"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/imgs/ykz0.jpeg"
+            class="d-block w-100"
+            alt="Yakuza 0"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <div id="promo">
+    <h2><strong>Jogos em Promoção</strong></h2>
+    <mat-grid-list cols="3">
+      <mat-grid-tile>
+        <mat-card class="example-card">
+          <img mat-card-image src="./assets/imgs/hades.jpg" alt="Jogo 1" />
+          <mat-card-header>
+            <mat-card-title>Hades</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Rouge like mais premiado do ano!!</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <p>R$ 300,00</p>
+            <button mat-button>Comprar</button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="example-card">
+          <img mat-card-image src="./assets/imgs/ykz1.jpeg" alt="Jogo 1" />
+          <mat-card-header>
+            <mat-card-title>Yakuza 0</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>Porradaria nos anos 80</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <p>R$ 300,00</p>
+            <button mat-button>Comprar</button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card class="example-card">
+          <img mat-card-image src="./assets/imgs/unch4c.jpg" alt="Jogo 1" />
+          <mat-card-header>
+            <mat-card-title>Uncharted 4</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p>O fim do ladrão</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <p>R$ 300,00</p>
+            <button mat-button>Comprar</button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
 </main>
