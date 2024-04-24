@@ -2,13 +2,27 @@
   <section id="section-login">
     <form>
       <div>
-        <label for="usuario">Email</label>
-        <input name="usuario" required type="text" [(ngModel)]="usuario" />
-        <br />
-        <label for="password">Password</label>
-        <input name="password" type="password" [(ngModel)]="senha" />
+        <div class="mb-3">
+          <label for="usuario" class="form-label">Email</label>
+          <input
+            name="usuario"
+            required
+            type="text"
+            class="form-control"
+            [(ngModel)]="usuario"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            name="password"
+            type="password"
+            class="form-control"
+            [(ngModel)]="senha"
+          />
+        </div>
       </div>
-      <button (click)="fazerLogin()">Login</button>
+      <button (click)="fazerLogin()" class="btn btn-primary">Login</button>
     </form>
   </section>
 </main>
