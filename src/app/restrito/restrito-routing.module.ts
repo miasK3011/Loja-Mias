@@ -14,7 +14,7 @@ const routes: Routes = [
         children: [
             { path: 'cadastro', component: CadastroProdutoComponent },
             { path: 'lista', component: ListaProdutoComponent },
-            { path: 'atualiza/:id', component: AtualizaProdutoComponent }
+            { path: 'editar/:id', component: AtualizaProdutoComponent }
         ]
     },
     { path: '', redirectTo: '/inicio', pathMatch: 'full' }
