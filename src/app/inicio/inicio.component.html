@@ -48,48 +48,26 @@
   <div id="promo">
     <h2><strong>Jogos em Promoção</strong></h2>
     <mat-grid-list cols="3">
-      <mat-grid-tile>
+      <mat-grid-tile *ngFor="let produto of produtos">
         <mat-card class="example-card">
-          <img mat-card-image src="./assets/imgs/hades.jpg" alt="Jogo 1" />
+          <img
+            mat-card-image
+            src="./assets/imgs/{{ produto.foto }}"
+            alt="produto"
+          />
           <mat-card-header>
-            <mat-card-title>Hades</mat-card-title>
+            <mat-card-title>{{ produto.produto }}</mat-card-title>
           </mat-card-header>
           <mat-card-content>
-            <p>Rouge like mais premiado do ano!!</p>
-          </mat-card-content>
+            <p>
+              {{ produto.descricao }}
+            </p>
+            <p></p
+          ></mat-card-content>
+
           <mat-card-actions>
-            <p>R$ 300,00</p>
-            <button mat-button>Comprar</button>
-          </mat-card-actions>
-        </mat-card>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <mat-card class="example-card">
-          <img mat-card-image src="./assets/imgs/ykz1.jpeg" alt="Jogo 1" />
-          <mat-card-header>
-            <mat-card-title>Yakuza 0</mat-card-title>
-          </mat-card-header>
-          <mat-card-content>
-            <p>Porradaria nos anos 80</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <p>R$ 300,00</p>
-            <button mat-button>Comprar</button>
-          </mat-card-actions>
-        </mat-card>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <mat-card class="example-card">
-          <img mat-card-image src="./assets/imgs/unch4c.jpg" alt="Jogo 1" />
-          <mat-card-header>
-            <mat-card-title>Uncharted 4</mat-card-title>
-          </mat-card-header>
-          <mat-card-content>
-            <p>O fim do ladrão</p>
-          </mat-card-content>
-          <mat-card-actions>
-            <p>R$ 300,00</p>
-            <button mat-button>Comprar</button>
+            <p>{{ produto.preco | currency : "BRL" }}</p>
+            <button mat-raised-button color="primary">Comprar</button>
           </mat-card-actions>
         </mat-card>
       </mat-grid-tile>
