@@ -1,4 +1,5 @@
-# LojaMias
+![image](https://github.com/miasK3011/Loja-Mias/assets/70519524/204820d7-7cec-4468-a536-77cf64844f47)
+# Loja Mias
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
