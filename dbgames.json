@@ -13,6 +13,13 @@
       "descricao": "Descrição do jogo 2",
       "foto": "hades.jpg",
       "preco": 200
+    },
+    {
+      "id": 0,
+      "produto": "Yakuza",
+      "descricao": "Porradaria no Japão dos anos 80",
+      "foto": "ykz0.jpeg",
+      "preco": 150
     }
   ]
 }
