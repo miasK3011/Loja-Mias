@@ -1,5 +1,5 @@
 <div id="page-container">
-    <app-menu></app-menu>
+    <app-menu *ngIf="mostrarMenu"></app-menu>
     <div id="content">
         <router-outlet></router-outlet>
     </div>
