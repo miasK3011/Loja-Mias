@@ -4,7 +4,7 @@
       "id": "1",
       "produto": "Uncharted 4",
       "descricao": "Descrição do jogo 1",
-      "foto": "unch4.jpg",
+      "foto": "unch4c.jpg",
       "preco": 300
     },
     {
@@ -13,20 +13,6 @@
       "descricao": "Descrição do jogo 2",
       "foto": "hades.jpg",
       "preco": 200
-    },
-    {
-      "id": "3",
-      "produto": "Yakuza 0",
-      "descricao": "Descrição do jogo 3",
-      "foto": "ykz0.jpeg",
-      "preco": 400
-    },
-    {
-      "id": 4,
-      "produto": "Elden Ring",
-      "descricao": "Descrição do jogo 4",
-      "foto": "elden.png",
-      "preco": 400
     }
   ]
 }
